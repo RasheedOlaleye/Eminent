@@ -1,0 +1,181 @@
+body{
+    font-family: "Libre Baskerville" serif;
+    margin: 0;
+    font-size: .75rem;
+    text-align: center;
+    background: beige;
+}
+
+/*============Typography===============================*/
+section{
+    border-bottom:  2px solid grey;
+}
+section > p{
+font-size: 1.2rem;
+font-family: Arial, Helvetica, sans-serif;
+color: #707070;
+padding: 1em;
+}
+
+section > h3{
+font-size: 2rem;
+color: aqua;
+}
+.flower-text{
+font-size: 3rem;
+}
+
+.flower-section h2{
+font-size: 3rem;
+padding: 2px;
+color: black;
+font-family: "Osward" serif;
+}
+.flower-section p{
+font-size:1rem ;
+font-weight: 300;
+padding:.5rem;
+
+}
+
+
+.flower-img{
+width: 80%;
+object-fit: cover;
+
+
+}
+
+header >.logo-img {
+   
+    margin:0 auto;
+    width: 3em;
+    display: block;
+}
+
+
+
+/*================NAVIGATION=======================================*/
+nav ul{
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+    list-style:none;
+    padding:0;}
+
+
+
+ul a{
+    text-decoration: none;
+    font-weight: 400;
+    padding: 0 2px;
+    color: #707070;
+    font-size: 2rem;
+    margin:0 1rem ;
+    
+    
+}
+a:hover{
+color:blue;
+}
+
+/*==================Container=======================================*/
+.flower-section{
+    border: 2px solid green;
+    margin:2em ;
+    background: pink;
+    border-radius: 3rem;
+    color: black;
+    font-weight: 600;
+}
+
+
+.flower-section:hover:focus{
+    border:10px solid black;
+}
+
+.container-flex {
+    display: flex;
+    flex-direction: row;
+    font-size: 1rem;
+    text-align: center;}
+
+
+.container{
+    box-shadow: 20px 20px 50px grey;
+    min-height: 300px;
+    margin-bottom: 10rem;
+}
+  
+
+
+
+
+
+
+ .border{
+    border-top: 6px solid grey;
+}
+
+
+
+
+       /*==============================fOOTER================*/
+footer{
+display: flex;
+flex-direction: column;
+background:black;
+margin-top: 2rem;
+}
+
+.footer-img{
+width: 30%;
+max-height: 15rem;
+padding: 18px;
+border: 2px dotted white;
+;
+}
+
+.footer-flower{
+    padding: 1rem;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: capitalize;
+
+
+}
+
+
+
+
+
+/*=================MEDIA QUERY*====================*/
+@media (min-width:675px){
+    nav ul{
+        flex-direction: row;
+    }
+    nav li {
+        margin: 0 .5em;
+    }
+        }
+  /* Responsive layout - makes a one column layout instead of a two-column layout */
+  @media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  }
+        
+            
+                
+            
+
+        
+        @media (min-width:675px){
+            footer{
+                flex-direction: row;
+                justify-content: space-between;
+            }
+
+        }

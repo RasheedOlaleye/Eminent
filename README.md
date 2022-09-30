@@ -1,2 +1,3 @@
 # Eminent
-this one of my project on Coursera
+Meta Frontend development project
+
